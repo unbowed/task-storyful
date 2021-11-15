@@ -1,0 +1,19 @@
+{
+  "name": "storyful-tennis",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npx spack",
+    "dev": "jest --watch",
+    "test": "jest"
+  },
+  "author": "rkouye",
+  "devDependencies": {
+    "@swc/cli": "^0.1.51",
+    "@swc/core": "^1.2.108",
+    "@swc/jest": "^0.2.5",
+    "chokidar": "^3.5.2",
+    "jest": "^27.3.1",
+    "prettier": "2.4.1"
+  }
+}
